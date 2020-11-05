@@ -73,8 +73,9 @@ function draw() {
   Engine.update(engine);
  ground.display();
  if(gameState=="end"){
-  textSize(100);
-  text("GAME OVER!",150,250);
+  textSize(70);
+  text("GAME IS OVER!",120,250);
+   fill("pink");
 }
  
  
